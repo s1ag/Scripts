@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Script for starting and stopping the Nessus vulnerability scanner
+# Author: (https://github.com/s1ag)
 
 arg1=$1
 
@@ -59,8 +60,6 @@ if [[ -z $1 ]] ; then
 elif [ "$#" -gt 2 ]; then
     echo "Too many arguments, aborting..."
     exit 0
-
-# Cannot have the same inputs
 
 
 # If valid number of positional arguments
